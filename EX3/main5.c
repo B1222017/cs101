@@ -10,7 +10,8 @@ int main(){
         if(i%30){
             int h=((i/30)+1)*30;
             printf("%d元",h);
-        }
+        }else{
+            printf("%d元",i);
     }
     return 0;
 }
